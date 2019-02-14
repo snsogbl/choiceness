@@ -29,9 +29,9 @@
                "4": 1,
                "5": 1
           }[e] && t.push(n[e] = new Promise(function(t, i) {
-               for (var r = "css/" + ({
+               for (var r = "choiceness/css/" + ({
                          "1": "homePage_homePage",
-                         "2": "choiceness/index_index",
+                         "2": "index_index",
                          "3": "payPlugIn_payPlugIn",
                          "4": "userCenter_userCenter",
                          "5": "web_web"
@@ -63,7 +63,7 @@
                     t.push(r[2] = o);
                     var c, a = document.createElement("script");
                     a.charset = "utf-8", a.timeout = 120, __webpack_require__.nc && a.setAttribute("nonce", __webpack_require__.nc), a.src = function jsonpScriptSrc(e) {
-                         return __webpack_require__.p + "chunk/" + ({
+                         return __webpack_require__.p + "choiceness/chunk/" + ({
                               "1": "homePage_homePage",
                               "2": "index_index",
                               "3": "payPlugIn_payPlugIn",
